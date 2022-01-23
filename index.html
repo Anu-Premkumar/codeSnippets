@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+        <nav class="header">
+            <div class="Title">Code Snippets</div>
+            <ul class="nav_elements">
+                <li class="nav_element">Home</li>
+                <li class="nav_element">Login</li>
+                <li class="nav_element">Contact</li>
+            </ul>
+        </nav>
+        <items class="top">
+            <item class="item name">
+                <label for="CodeSnippet">Code Snippet Name</label>
+                <input type="text" placeholder="Enter">
+            </item>
+            <item class="item language">
+                <label for="">Language</label>
+                <select>
+                    <option value="python">python</option>
+                    <option value="c++">c++</option>
+                </select>
+            </item>
+            <item class="item tags">
+                <label for="">Tags</label>
+                <input type="text" placeholder="tags separated by comma">
+            </item>
+        </items>
+        <div class="center">
+            <item class="item code">
+                <label for="">Code Snippet</label>
+                <textarea class="textarea" placeholder="Enter or paste your code here" name="" id="" cols="100" rows="30"></textarea>
+            </item>
+            <item class="item output">
+                <label for="">Output</label>
+                <textarea class="textarea" name="" id="" cols="60" rows="30"></textarea>
+            </item>
+        </div>
+        <div class="footer">
+            <button>Submit</button>
+            <button>Cancel</button>
+        </div>
+</body>
+</html>
